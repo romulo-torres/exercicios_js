@@ -16,10 +16,6 @@ const server = http.createServer(function(req,res){
         res.end();
         });
     }
-    else{
-        res.write("Error: diretório inexistente")
-        res.end();
-    }
 });
 
 
